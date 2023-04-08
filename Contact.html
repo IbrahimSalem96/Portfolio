@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- link style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- link media -->
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- css animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- WoW JS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Gideon+Roman&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet" />
+    <!-- css animation library -->
+</head>
+
+<body>
+    <!-- Start nav -->
+    <header class="head-contact">
+        <nav>
+            <div class="logo">
+                <p>IbrahimSalem</p>
+            </div>
+            <ul class="nav-Menu" id="open">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <span onclick="myFunction()"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+    </header>
+    <!-- End nav -->
+    <main>
+
+        <section>
+            <div class="auth">
+                <div class="container">
+                    <div class="auth__inner">
+                        <div class="auth__media wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s" data-wow-offset="20">
+                            <img
+                                src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/opened_gi4n.svg">
+                        </div>
+                        <div class="auth__auth wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.2s" data-wow-offset="20">
+                            <h1 class="auth__title">Contact Me</h1>
+                            <p>Fill in your details to send message</p>
+                            <form class="form" id="contactform">
+                                <label>Name</label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                                <label>Email</label>
+                                <input type="email" name="email" id='email' placeholder="you@example.com" required>
+                                <label>Your Messege</label>
+                                <textarea placeholder="Enter your message here" id="textarea" required></textarea>
+                                <button type='submit' class="button button__accent">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Start footer -->
+    <footer id="Contact" class="footer">
+        <div class="wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s" data-wow-offset="20">
+            <div class="center-footer">
+                <div class="des-footer">
+                    <p>Lets Work Togather Indeed</p>
+                    <span> Here you can find me</span>
+                </div>
+                <div class="center-cell">
+                    <div class="icon-cont">
+                        <h5>Email</h5>
+                        <i class="fa-solid fa-envelope"></i><a href="#">ibrahim.m.salem96@gmail.com</a>
+                    </div>
+                    <div class="icon-cont">
+                        <h5>phone</h5>
+                        <i class="fa-solid fa-phone"></i><span>+962789468554</span>
+                    </div>
+                    <div class="icon-cont">
+                        <h5>addrees</h5>
+                        <i class="fa-solid fa-location-dot"></i><span>Amman - Jordan</span>
+                    </div>
+                </div>
+                <div class="soc">
+                    <a href="https://www.linkedin.com/in/ibrahimsalem96/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://codepen.io/IbrahimsSalem" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+                    <a href="https://github.com/IbrahimsSalem" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="by">
+                    <p><a href="#">Ibraheem Salem</a> &#128153; </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer-->
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+  nav ul {
+    padding: 0 30px 0 15px;
+    margin: 0;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 59px;
+    background: #353535;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: var(--transition);
+  }
+
+  header span {
+    display: block;
+  }
+
+  .auth__inner {
+    flex-wrap: wrap;
+  }
+
+  .auth__media,
+  .auth__auth {
+    width: 70%;
+  }
+
+  .Profile .content {
+    gap: 30px 0;
+  }
+  .show {
+ 
+}
+}
+
+
+/* extra Small */
+@media (max-width: 428px) {
+
+  .About .grid-about {
+    grid-template-columns: 1fr;
+
+  }
+
+  .My-skills .skills-flex {
+    grid-template-columns: 1fr;
+
+  }
+
+  .My-skills .other-skills {
+    grid-template-columns: 1fr;
+
+  }
+
+  .My-skills .other-skills .nav-Education ul li .in-box,
+  .My-skills .other-skills .nav-Experience ul li .in-box {
+    width: 15rem;
+  }
+
+  .courses-Certificates {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  }
+
+  .two-Langueges {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .col-1,
+  .col-2 {
+    display: block;
+  }
+
+  .flex-cntact .left {
+    padding-bottom: 0;
+  }
+
+  .flex-cntact .right {
+    padding-top: 0;
+  }
+
+  .auth__media,
+  .auth__auth {
+    width: 50%;
+  }
+
+  .tabs {
+    display: block;
+    text-align: center;
+  }
+
+  .show {
+    width: 100%;
+  }
+}
+
+
+ 
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .Profile .content {
+    gap: 30px 30px;
+  }
+
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
